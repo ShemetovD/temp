@@ -1,0 +1,105 @@
+From 39a9fb013a9937cb14111cc93b4c29a15f87cb7a Mon Sep 17 00:00:00 2001
+From: dshemetau <dshemetau@deloitte.com>
+Date: Mon, 27 Feb 2023 16:58:02 +0100
+Subject: [PATCH] add text file 2
+
+---
+ .DS_Store         | Bin 0 -> 6148 bytes
+ .idea/.gitignore  |   5 +++++
+ .idea/F.iml       |  12 ++++++++++++
+ .idea/modules.xml |   8 ++++++++
+ .idea/vcs.xml     |   6 ++++++
+ text-file2.txt    |   1 +
+ 6 files changed, 32 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/F.iml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 text-file2.txt
+
+diff --git a/.DS_Store b/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..1a3dee0fdcba22932b6f024a7718fc38a80264a6
+GIT binary patch
+literal 6148
+zcmeHKy-veG47O>IB6aD=cpC#!rA`biM-_IYz5tY<wo;>XpnD#Qm5l}Q4m<=;z~{4p
+zoQN0^0$aNKeEvBnpOm|ph<LuQXG9YsDlr6ElmQX*pzFYb#mTbAb~Rhvw9Rf{lizBR
+zXD?_<E85Uq{`~v<zOQMkYPoHfu$8Cdr;~^0$Mf7@f9v0^d))9PQt1$NH&oLtUFVfY
+zFS)m0`*`|#X0?0yP5W7WI3lZ0QR=%m1I~am;0*jv25@JKlw(DoodIXS8Tep8&WC^@
+z7!5ncbaY@!Eda29ISF*>B_t;pM#D}K9tdkHP*d4j4AykmgT+O|PEpf|Q)TR9mEW5e
+zPSs%#DV#Ve`s@ri133dDT~6fwzrZIm*yQIazH$bffj`Co7uBMg<E89w{qlNp*9MF$
+s3=xUzM1erhegd$NbL1#F)gMGhTr}(yWf!rhbfEtTBtm?027Z8nH*Ez)BLDyZ
+
+literal 0
+HcmV?d00001
+
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..b58b603
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+diff --git a/.idea/F.iml b/.idea/F.iml
+new file mode 100644
+index 0000000..0c8867d
+--- /dev/null
++++ b/.idea/F.iml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..6e76ce1
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/F.iml" filepath="$PROJECT_DIR$/.idea/F.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..94a25f7
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/text-file2.txt b/text-file2.txt
+new file mode 100644
+index 0000000..4eedac2
+--- /dev/null
++++ b/text-file2.txt
+@@ -0,0 +1 @@
++hello text file 2
+\ No newline at end of file
+-- 
+2.37.1 (Apple Git-137.1)
+
